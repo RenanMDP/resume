@@ -1471,6 +1471,14 @@ input, select, textarea {
 			min-width: fit-content;
 		}
 
+		object p {
+			text-align: center;
+		}
+
+		#download-button {
+			height: 100%;
+		}
+
 		/* .navModal li {
 			width: fit-content;
 		}
