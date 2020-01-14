@@ -1402,7 +1402,6 @@ input, select, textarea {
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
-
 		}
 
 			#header nav ul li, .navModal li {
@@ -1412,6 +1411,10 @@ input, select, textarea {
 
 				#header nav ul li:first-child, .navModal li:first-child {
 					border-left: 0;
+				}
+
+				#header nav ul li:nth-child(2), .navModal li:nth-child(2) {
+					border-right: solid 1px #ffffff;
 				}
 
 				#header nav ul li a, .navModal li a {
@@ -1434,7 +1437,7 @@ input, select, textarea {
 						background-color: rgba(255, 255, 255, 0.175);
 					}
 
-		#header nav.use-middle:after {
+		/* #header nav.use-middle:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1443,7 +1446,7 @@ input, select, textarea {
 			width: 1px;
 			height: 100%;
 			background: #ffffff;
-		}
+		} */
 
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
