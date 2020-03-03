@@ -1482,6 +1482,25 @@ input, select, textarea {
 			height: 100%;
 		}
 
+		#project-table {
+			width: 100%;
+		}
+
+		.tryButton {
+			display: block;
+		}
+
+		#flexExample {
+		}
+
+		#description {
+			height: 10px;
+			overflow: scroll;
+		}
+
+		#card {
+			
+		}
 		/* .navModal li {
 			width: fit-content;
 		}
