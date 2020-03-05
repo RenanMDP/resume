@@ -1486,13 +1486,6 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.tryButton {
-			display: block;
-		}
-
-		#flexExample {
-		}
-
 		#description {
 			height: 10px;
 			overflow: scroll;
@@ -1784,4 +1777,58 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		/* My CSS */
+
+		#project-wrapper {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			/* justify-content: space-evenly; */
+			/* align-items: center; */
+		}
+
+		#project-item-wrapper {
+			display: flex;
+			flex-direction: row;
+			/* flex-wrap: wrap; */
+			width: 100%;
+			border-bottom: 2px solid rgb(43, 73, 67);
+			padding: 5px;
+		}
+
+		#project {
+			/* align-self: flex-end; */
+			width: 90%;
+		}
+
+		.try-it {
+			width: 10%;
+			text-align: center;
+			background-color: rgb(43, 73, 67);
+		}
+
+		.try-it:hover {
+			color: #000000;
+			background-color: rgb(124, 211, 193);
+		}
+
+		#idiom-div {
+			border: 2px solid white;
+			height: fit-content;
+			position: absolute;
+			right: 5px;
+			top: 5px;
+		}
+
+		#idiom-div img {
+			display: block;
+			width: 5vw;
+			height: auto;
+			padding: 5px;
+		}
+		
+		#idiom-div img:hover {
+			background-color: rgba(81, 156, 156);
 		}
