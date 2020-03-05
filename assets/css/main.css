@@ -1789,7 +1789,7 @@ input, select, textarea {
 			/* align-items: center; */
 		}
 
-		#project-item-wrapper {
+		.project-item-wrapper {
 			display: flex;
 			flex-direction: row;
 			/* flex-wrap: wrap; */
@@ -1798,7 +1798,7 @@ input, select, textarea {
 			padding: 5px;
 		}
 
-		#project {
+		.project {
 			/* align-self: flex-end; */
 			width: 90%;
 		}
