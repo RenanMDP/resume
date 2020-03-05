@@ -1824,9 +1824,13 @@ input, select, textarea {
 
 		#idiom-div img {
 			display: block;
-			width: 5vw;
+			width: 5vh;
 			height: auto;
 			padding: 5px;
+		}
+
+		#pt-flag {
+			border-top: 2px solid white;
 		}
 		
 		#idiom-div img:hover {
