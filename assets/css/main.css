@@ -1792,7 +1792,7 @@ input, select, textarea {
 		.project-item-wrapper {
 			display: flex;
 			flex-direction: row;
-			/* flex-wrap: wrap; */
+			/* flex-wrap: nowrap; */
 			width: 100%;
 			border-bottom: 2px solid rgb(43, 73, 67);
 			padding: 5px;
